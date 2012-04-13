@@ -25,8 +25,8 @@ It has also only been tested on a Mac, but should work on Windows too.
 The MOO menu should be fairly self-explanatory. It allows you to
 
 * create a new product (MiniCard, Business Card or Post Card)
-* add an _image_ side (i.e. the _back_ of the card, where your details would typically go)
-* add a _details_ side (i.e. the _front_ of the card, where an image would typically go)
+* add an _image_ side (i.e. the _back_ of the card, where an image would typically go)
+* add a _details_ side (i.e. the _front_ of the card, where your details would typically go)
 * change whether the current side is _details_ or _image_
 * send your finished design to MOO, where you can check it over before adding it your cart.
 
