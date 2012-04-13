@@ -21,8 +21,8 @@
 (function() {
     var API_HOST = 'uk.moo.com';
 
-    var API_KEY = '11e0972487a50ceb393c4935b4c88bf104f60852b';
-    var API_SECRET = 'c50ad2abfd80b73733c8b6b472d980cf';
+    var API_KEY = 'a688570817ce61d49cebd98b933acec604f8834a1';
+    var API_SECRET = '24bd1fc5e812b8412a6ffd787867fd3e';
 
     var USER_AGENT = 'MOO InDesign ExtendScript';
 
