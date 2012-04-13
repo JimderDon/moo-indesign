@@ -1,4 +1,4 @@
-# MOO InDesign extension script
+# Adobe InDesign extension script for MOO
 
 ## Hello!
 
@@ -16,8 +16,8 @@ It has also only been tested on a Mac, but should work on Windows too.
 ## Installation
 
 * Download [moo.jsx](https://raw.github.com/moodev/moo-indesign/master/moo.jsx)
-* Copy it to your Mac, in `/Applications/Adobe InDesign CS5/Scripts/startup scripts`
-* Start InDesign (CS5 or higher)
+* Copy it to your Mac, in `/Applications/Adobe InDesign CS5/Scripts/startup scripts` (change `CS5` to `CS5.5` if you have the newer version)
+* Start InDesign
 * There should be a MOO menu!
 
 ## Usage
