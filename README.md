@@ -4,7 +4,7 @@
 
 If you're a MOO customer who uses Adobe InDesign, you may find this
 extension script useful. It allows you to create MiniCards, Business
-Cards and Post Cards and upload them to MOO, all from within InDesign.
+Cards and Postcards and upload them to MOO, all from within InDesign.
 
 ## Compatibility
 
