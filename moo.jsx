@@ -60,7 +60,7 @@
                   height: 28, //mm
                   items: 100
                  },
-                 {name: "Post Card",
+                 {name: "Postcard",
                   mooName: "postcard",
                   templates: {details: {landscape: {code: "postcard_full_details_image_landscape",
                                                     linkId: 'variable_image_back'},
