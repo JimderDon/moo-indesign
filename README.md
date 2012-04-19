@@ -16,7 +16,10 @@ It has also only been tested on a Mac, but should work on Windows too.
 ## Installation
 
 * Download [moo.jsx](https://raw.github.com/moodev/moo-indesign/master/moo.jsx)
-* Copy it to your Mac, in `/Applications/Adobe InDesign CS5/Scripts/startup scripts` (change `CS5` to `CS5.5` if you have the newer version)
+* Copy it to the right place
+   * Mac: `/Applications/Adobe InDesign CS5/Scripts/startup scripts`
+   * Windows: `\Program Files\Adobe\InDesign CS5\Scripts\startup scripts`
+   * In either case, change `CS5` to `CS5.5` if you have the newer version.
 * Start InDesign
 * There should be a MOO menu!
 
