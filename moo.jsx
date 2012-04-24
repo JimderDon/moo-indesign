@@ -141,8 +141,6 @@
 				                     -document.documentPreferences.documentBleedTopOffset, measurements.width];
         textFrame.contents = SIDE_TYPES[sideType].name + " side";
         text = textFrame.texts.item(0);
-        text.appliedFont = app.fonts.item("Helvetica");
-        text.fontStyle = "Regular";
         text.pointSize = 10;
         text.justification = Justification.centerAlign;
 	    
