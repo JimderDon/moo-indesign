@@ -502,6 +502,10 @@
             action.addEventListener('onInvoke', (function(documentPresetName, size) {
                 return function() {
                     var document = app.documents.add(true, app.documentPresets.item(documentPresetName));
+
+                    document.viewPreferences.horizontalMeasurementUnits = MeasurementUnits.MILLIMETERS;
+                    document.viewPreferences.verticalMeasurementUnits = MeasurementUnits.MILLIMETERS;
+
                     for (var sideType in SIDE_TYPES) {
                         masterForSideType(document, sideType);
                     }
