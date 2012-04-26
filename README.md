@@ -8,10 +8,16 @@ Cards and Postcards and upload them to MOO, all from within InDesign.
 
 ## Compatibility
 
-The script has been tested with CS5 and CS5.5. Earlier versions will
-not work (yet).
+The script has been tested with CS5 and CS5.5. Earlier versions will not work (yet).
 
-It has also only been tested on a Mac, but should work on Windows too.
+It has been tested on Mac OS X 10.6 and Windows 7. Your mileage may vary with other OS versions.
+
+### Windows note
+
+You may see a message about being unable to load a type library. This
+is a bug in the Windows version of InDesign, and can be worked around
+by quitting and re-running InDesign as Administrator (just once will
+do -- you can run it as a normal user once it starts working).
 
 ## Installation
 
