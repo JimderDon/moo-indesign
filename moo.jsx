@@ -16,6 +16,7 @@
 //
 //-----------------------------------------------------------------------------
 
+#target indesign
 #targetengine 'session'
 
 (function() {
@@ -448,7 +449,7 @@
             var body = 'tell application "Finder"\ropen location "' + url + '"\rend tell';
             app.doScript(body,ScriptLanguage.APPLESCRIPT_LANGUAGE);
         } else {
-            var body = 'dim objShell\rset objShell = CreateObject("Shell.Application")\rstr = "' + url + '"\robjShell.ShellExecute str, "", "", "open", 1';
+            var body = 'dim objShell\rset objShell = CreateObject("Shell.Application")\rstr = "' + url + '"\robjShell.ShellExecute str, "", "", "open", "1"';
             app.doScript(body,ScriptLanguage.VISUAL_BASIC);
         }
     }
@@ -632,7 +633,7 @@
                     var filePath = Folder.temp + "/moo-export-" + now + "page-" + i + ".pdf";
                     file = new File(filePath);
 
-                    document.exportFile(ExportFormat.pdfType, filePath, false, app.pdfExportPresets.item(PDF_EXPORT_PRESET.name));
+                    document.exportFile(ExportFormat.pdfType, file, false, app.pdfExportPresets.item(PDF_EXPORT_PRESET.name));
 
                     progressStatus.text = "Uploading side " + (i + 1) + " to MOO";
                     progressPanel.update();
