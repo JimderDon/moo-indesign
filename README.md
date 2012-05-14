@@ -8,7 +8,7 @@ Cards and Postcards and upload them to MOO, all from within InDesign.
 
 ## Compatibility
 
-The script has been tested with CS5 and CS5.5. Earlier versions will not work (yet).
+The script has been tested with CS5, CS5.5 and CS6. Earlier versions will not work (yet).
 
 It has been tested on Mac OS X 10.6 and Windows 7. Your mileage may vary with other OS versions.
 
@@ -25,7 +25,7 @@ do -- you can run it as a normal user once it starts working).
 * Copy it to the right place
    * Mac: `/Applications/Adobe InDesign CS5/Scripts/startup scripts`
    * Windows: `\Program Files\Adobe\InDesign CS5\Scripts\startup scripts`
-   * In either case, change `CS5` to `CS5.5` if you have the newer version.
+   * In either case, change `CS5` to `CS5.5` or `CS6` if you have a newer version.
 * Start InDesign
 * There should be a MOO menu!
 
