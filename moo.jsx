@@ -458,11 +458,10 @@
 
     var mainMenu = app.menus.item("$ID/Main");
     var fileMenu = mainMenu.menuElements.item("File");
-    var exportForMenu = fileMenu.menuElements.item("Export for");
 
     try {
         mainMenu.submenus.item("MOO").remove();
-        exportForMenu.menuElements.item("MOO...").remove(); //?
+        fileMenu.menuElements.item("Export for").menuElements.item("MOO...").remove();
     } catch (myError) {
     }
 
@@ -706,10 +705,6 @@
     sendToMoo.addEventListener('onInvoke', uploadAction);
     mooMenu.menuItems.add(sendToMoo);
 
-    var exportForMoo = app.scriptMenuActions.add("MOO...");
-    exportForMoo.addEventListener('onInvoke', uploadAction);
-    exportForMenu.menuItems.add(exportForMoo);
-
     var uploadCheck = function uploadCheck() {
         var document = null;
         try {
@@ -720,12 +715,10 @@
             addImageSide.enabled = true;
             addDetailsSide.enabled = true;
             sendToMoo.enabled = true;
-            exportForMoo.enabled = true;
         } else {
             addImageSide.enabled = false;
             addDetailsSide.enabled = false;
             sendToMoo.enabled = false;
-            exportForMoo.enabled = false;
         }
     }
 
@@ -755,7 +748,6 @@
     addImageSide.addEventListener('beforeDisplay', uploadCheck);
     addDetailsSide.addEventListener('beforeDisplay', uploadCheck);
     sendToMoo.addEventListener('beforeDisplay', uploadCheck);
-    exportForMoo.addEventListener('beforeDisplay', uploadCheck);
     changeToImageSide.addEventListener('beforeDisplay', switchCheck);
     changeToDetailsSide.addEventListener('beforeDisplay', switchCheck);
 
