@@ -40,5 +40,5 @@ The MOO menu should be fairly self-explanatory. It allows you to
 * send your finished design to MOO, where you can check it over before adding it your cart.
 
 A normal MOO pack of cards would typically have one details side and
-many image sides, but using this extension you can create any number
+one or more image sides, but using this extension you can create any number
 of each, and the MOO site will do the right thing. Give it a go!
