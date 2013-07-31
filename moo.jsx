@@ -73,7 +73,7 @@
                                                   linkId: 'variable_image_front'}}},
                   width: 148, //mm
                   height: 105, //mm
-                  items: 20
+                  items: 10
                  }];
 
     var BLEED = 2; //mm
